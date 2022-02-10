@@ -45,7 +45,8 @@ const _fbqEnabled = () => {
  * @param  {object} [data={}]
  */
 const init = (appId, data = {}) => {
-  if (!_fbqEnabled()) return
+  // Disable checking if enabled because multiple tracking IDs can be used
+  // if (!_fbqEnabled()) return
 
   if (config.debug) {
     console.log(
