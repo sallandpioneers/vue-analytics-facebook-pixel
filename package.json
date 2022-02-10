@@ -1,5 +1,5 @@
 {
-  "name": "@sallandpioneers/vue-facebook-pixel",
+  "name": "vue-facebook-pixel",
   "version": "1.2.1",
   "description": "A Facebook Pixel API wrapper",
   "author": "sobolevn <mail@sobolevn.me>",
@@ -50,7 +50,7 @@
     "vue": "2.0.6",
     "webpack": "^1.13.3"
   },
-  "main": "dist/vue-facebook-pixel.js",
+  "main": "src/index.js",
   "repository": {
     "url": "https://github.com/threadhandler/vue-analytics-facebook-pixel.git",
     "type": "git"
